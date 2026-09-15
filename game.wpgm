@@ -2,17 +2,16 @@ import wollok.game.*
 import personaje.*
 import cultivos.*
 
-program farmville {
+program lagranja {
 	//  CONFIG	
 	game.title("La granja")
 	game.height(10)
 	game.width(10)
-	game.ground("ground.png")
+	game.ground("fondo.png")
 
-	//  VISUALES
  	game.addVisualCharacter(personaje)
- 	game.addVisual(new Maiz()) // Se agrega a modo de prueba
  	
+
  	//  COMIENZA
 	game.start()
 }
